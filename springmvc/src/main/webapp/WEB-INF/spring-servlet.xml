@@ -15,7 +15,42 @@
 	
 		<property name="prefix" value="/WEB-INF/views/"/>
 		<property name="suffix" value=".jsp"/>
-	
 	</bean>
+	
+<!-- 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="ds" > -->
+<!-- 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/> -->
+<!-- 		<property name="url" value="jdbc:mysql://localhost:3306/youtube"/> -->
+<!-- 		<property name="username" value="root"/> -->
+<!-- 		<property name="password" value="DevaAsh347@&amp;"></property> -->
+	
+<!-- 	</bean> -->
+	
+<!-- 	<bean class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" name="factory"> -->
+
+<!-- 		<property name="dataSource" ref="ds"></property> -->
+<!-- 				hibernate properties --> 
+<!-- 		<property name="hibernateProperties"> -->
+<!-- 			<props> -->
+<!-- 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</prop> -->
+<!-- 				<prop key="hibernate.show_sql" >true</prop> -->
+<!-- 				<prop key="hibernate.hbm2ddl.auto">update</prop> -->
+<!-- 			</props> -->
+<!-- 		</property> -->
+<!-- 			annotated class --> 
+<!-- 		<property name="annotatedClasses"> -->
+<!-- 			<list> -->
+<!-- 				<value> -->
+<!-- 					springmvc.model.User -->
+<!-- 				</value> -->
+<!-- 			</list> -->
+			
+<!-- 		</property> -->
+<!-- 	</bean> -->
+<!-- 		hibernate template --> 
+<!-- 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate" -->
+<!-- 		  name="hibernateTemplate"> -->
+<!-- 		  <property name="sessionFactory" ref="factory"></property> -->
+<!-- 	</bean> -->
+ 
  
  </beans>
